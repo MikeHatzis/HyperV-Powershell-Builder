@@ -86,9 +86,7 @@ if($makeSwitch -eq "yes"){
         Get-VMSwitch | Select-Object -ExpandProperty Name
         [string]$vmSwitch = Read-Host "Please enter a virtual switch name"
     }
-#Write-Host "--------AVAILABLE SWITCHES--------" -BackgroundColor Black
-#Get-VMSwitch | Select-Object -ExpandProperty Name
-#Write-Host "--------AVAILABLE SWITCHES--------" -BackgroundColor Black
+
 [string]$vmSwitch = Read-Host "Please enter a virtual switch name"
 #__________________________________________________________
 [int32]$cpu = Read-Host "Number of CPUs"
