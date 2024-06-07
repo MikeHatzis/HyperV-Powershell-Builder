@@ -41,5 +41,5 @@ Automate the creation of Virtual Machines and Virtual Switches for Hyper-V using
 
 
 `# Example usage of the script:
-.\HyperV-Powershell-Builder.ps1`
+.\Create-HyperV-VM.ps1`
 
